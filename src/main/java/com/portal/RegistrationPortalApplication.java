@@ -68,7 +68,7 @@ public class RegistrationPortalApplication {
 	}
 
 	@Bean
-	public HibernateTransactionManager transactionManager() {
+	public HibernateTransactionManager transactionManager(){
 		HibernateTransactionManager transactionManager = new HibernateTransactionManager();
 		transactionManager.setSessionFactory(sessionFactory().getObject());
 		return transactionManager;
