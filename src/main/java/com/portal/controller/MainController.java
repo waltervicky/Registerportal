@@ -57,8 +57,8 @@ public class MainController {
 		   dbMain.setWinningprize(main.getWinningprize());
 		   		   
 		//login.setPhoto(profile.getBytes());
-		dao.updates(dbMain);
-		map.put("Status", "Success");
+			dao.updates(dbMain);
+			map.put("Status", "Success");
 		
 	} catch (Exception e) {
 		// TODO Auto-generated catch block
